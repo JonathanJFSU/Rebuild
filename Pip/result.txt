@@ -1,0 +1,27 @@
+Top 5 objects identified in the video:
+----------------------------------------
+person: 100.00% (189 frames)
+
+Top 5 actions identified in the video:
+----------------------------------------
+walking: 55.03% (104 frames)
+moving: 41.80% (79 frames)
+standing: 3.17% (6 frames)
+
+Person detected in 100.00% of frames (189 frames)
+
+Top 5 movement directions (from pose estimation):
+----------------------------------------
+moving left: 46.56% (88 frames)
+moving left-down: 4.76% (9 frames)
+standing still: 3.17% (6 frames)
+moving left-up: 2.12% (4 frames)
+moving right-down: 1.06% (2 frames)
+
+Top 5 shirt colors detected (hex values):
+----------------------------------------
+#25262c: 3.70% (7 frames)
+#2f2f37: 3.17% (6 frames)
+#2f2e36: 2.65% (5 frames)
+#2e2e36: 2.12% (4 frames)
+#2b2b32: 2.12% (4 frames)

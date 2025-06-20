@@ -1,0 +1,16 @@
+name: detections
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - pytorch-cuda
+  - torchvision
+  - torchaudio
+  - opencv
+  - transformers
+  - ultralytics
+  - sentencepiece
+  - protobuf

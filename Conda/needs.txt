@@ -1,0 +1,21 @@
+///build command
+docker buildx build --platform linux/amd64 --no-cache -t groundup --load . 
+
+docker run --rm -it groundup
+
+
+
+
+changes
+
+docker run -it --rm     --privileged     -e DISPLAY=$DISPLAY -e NVIDIA_DRIVER_CAPABILITIES=all --runtime=nvidia --gpus all -v /tmp/.X11-unix:/tmp/.X11-unix nvidia/cuda:11.6.2-base-ubuntu20.04 bash
+
+
+docker run -it --rm -e NVIDIA_DRIVER_CAPABILITIES=all --runtime=nvidia --gpus all groundup
+
+
+python3 paul.py "testVideo.mp4" "result.txt" --output_video "result.mp4"
+
+
+this script shows if touch.cuda is is_available and what version of cuda it was built with
+python -c "import torch; print(torch.cuda.is_available()); print(torch.version.cuda)"
